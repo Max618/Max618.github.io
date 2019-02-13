@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #0D262D;
+    color: #fff;
+    height: 100%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+[mx-jogo] {
+    height: 500px;
+    width: 900px;
+    background-color: darkblue;
+    position: relative;
+    border: 5px solid darkslategrey;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.jogador {
+    height: 10px;
+    width: 40px;
+    background-color: black;
+}
+
+.barreiras {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.barreira {
+    margin: 1px;
+    height: 10px;
+    width: 40px;
+    background-color: green;
+}
+
+.bolinha {
+    height: 12px;
+    width: 12px;
+    background-color: red;
+    align-self: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
